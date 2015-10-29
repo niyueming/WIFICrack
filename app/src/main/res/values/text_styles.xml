@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="parent_shadow_style">
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <!-- y轴平移 -->
+        <item name="android:shadowColor">#88000000</item>
+        <item name="android:shadowRadius">3.0</item>
+        <!-- 阴影半径 -->
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="whiteText" >
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="white16" parent="whiteText">
+        <item name="android:textSize">@dimen/size16</item>
+    </style>
+    <style name="white17" parent="whiteText">
+        <item name="android:textSize">@dimen/size17</item>
+    </style>
+    <style name="white18" parent="whiteText">
+        <item name="android:textSize">@dimen/size18</item>
+    </style>
+    <style name="white19" parent="whiteText">
+        <item name="android:textSize">@dimen/size19</item>
+    </style>
+    <style name="white20" parent="whiteText">
+        <item name="android:textSize">@dimen/size20</item>
+    </style>
+    <style name="white21" parent="whiteText">
+        <item name="android:textSize">@dimen/size21</item>
+    </style>
+    <style name="white22" parent="whiteText">
+        <item name="android:textSize">@dimen/size22</item>
+    </style>
+    <style name="white23" parent="whiteText">
+        <item name="android:textSize">@dimen/size23</item>
+    </style>
+    <style name="white24" parent="whiteText">
+        <item name="android:textSize">@dimen/size24</item>
+    </style>
+
+</resources>
